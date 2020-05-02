@@ -16,9 +16,9 @@ echo "Push to branch $INPUT_BRANCH";
     exit 1;
 };
 
-if ${INPUT_FOLLOW_TAGS}; then
-    _FOLLOW_TAGS_OPTION='--follow-tags'
-fi
+# if ${INPUT_FOLLOW_TAGS}; then
+#     _FOLLOW_TAGS_OPTION='--follow-tags'
+# fi
 
 if ${INPUT_FORCE}; then
     _FORCE_OPTION='--force'
