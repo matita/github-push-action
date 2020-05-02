@@ -25,6 +25,7 @@ inputs:
   follow_tags:
     description: 'Determines if --follow-tags is used'
     required: false
+    default: true
   directory:
     description: 'Directory to change to before pushing.'
     required: false
