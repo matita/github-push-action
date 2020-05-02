@@ -32,4 +32,4 @@ cd ${INPUT_DIRECTORY}
 
 remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${REPOSITORY}.git"
 
-git push "${remote_repo}" HEAD:${INPUT_BRANCH} $_FOLLOW_TAGS_OPTION $_FORCE_OPTION $_TAGS;
+# git push "${remote_repo}" HEAD:${INPUT_BRANCH} $_FOLLOW_TAGS_OPTION $_FORCE_OPTION $_TAGS;
