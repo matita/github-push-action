@@ -10,6 +10,7 @@ _FOLLOW_TAGS_OPTION=''
 _FORCE_OPTION=''
 REPOSITORY=${INPUT_REPOSITORY:-$GITHUB_REPOSITORY}
 
+echo "follow_tags: $INPUT_FOLLOW_TAGS";
 echo "Push to branch $INPUT_BRANCH";
 [ -z "${INPUT_GITHUB_TOKEN}" ] && {
     echo 'Missing input "github_token: ${{ secrets.GITHUB_TOKEN }}".';
